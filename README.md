@@ -2,7 +2,7 @@
 
 ## Getting started
 
-npm install jquerysample-lib --save
+npm install jquery-sample-lib --save
 
 
 ## Usage
