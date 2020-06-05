@@ -1,0 +1,16 @@
+{
+  "name": "jquery-lib-sample",
+  "version": "1.0.1",
+  "description": "npm install jquery-lib-sample --save",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+        "jquery-react",
+        "react",
+        "jquery",
+        "sample jquery"],
+  "author": "",
+  "license": "ISC"
+}
