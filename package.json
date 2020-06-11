@@ -1,6 +1,6 @@
 {
   "name": "jquery-lib-sample",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "npm install jquery-lib-sample --save",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,10 @@
         "jquery-react",
         "react",
         "jquery",
-        "sample jquery"],
-  "author": "",
+        "sample jquery",
+        "react-jquery",
+        "jquery for react"
+    ],
+  "author": "Sumit Balyan",
   "license": "ISC"
 }

@@ -33,6 +33,12 @@ function $(selector) {
         removeColor : () => {
             self.element.style.color = null;
         },
+        setDisabled : () => self.element.disabled = true,
+        removeDisabled : () => self.element.disabled = false,
+        isDisabled : ()=> self.element.disabled,
+        back : () => window.history.back(),
+        forward : () => window.history.forward(),
+        go : (value) => (value === -1) ? window.history.go(-1) : window.history.go(),
     };
 
     return self;

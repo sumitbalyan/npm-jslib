@@ -1,12 +1,13 @@
-# Simple Javascript library like Jquery
+# Sample Javascript library like Jquery
 
 ## Getting started
 
-npm install jquerysample-lib --save
+npm install jquery-sample-lib --save
 
 
 ## Usage
 ```javascript
+
 import $ from'jquery-lib-sample';
 
 or
@@ -51,6 +52,26 @@ $('h3').setColor('red');
 // remove color
 $('h3').removeColor();
 
+//check element is disabled
+$('#libtext').isDisabled();
+
+//set disabled
+$('#libtext').setDisabled();
+
+//remove disabled
+$('#libtext').removeDisabled();
+
+//back to previous page
+$().back();
+
+//go to next page
+$().forward();
+
+//go to next page
+$().go(-1);
+
+//....and many more 
+
 ```
 
-## Happy coding!!
+## Happy programming!!
